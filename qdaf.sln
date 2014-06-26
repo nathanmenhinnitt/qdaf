@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qdaf.Framework", "qdaf.Framework\qdaf.Framework.csproj", "{8B62F7D4-474F-4461-871A-5FBA29E8B420}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{173CA1BA-0F52-4121-8738-A196E3C66B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qdaf.Framework.UnitTests", "qdaf.Framework.UnitTests\qdaf.Framework.UnitTests.csproj", "{842DADFD-BE83-4A28-8B6D-86C330951E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qdaf.PacketValidator", "qdaf.PacketValidator\qdaf.PacketValidator.csproj", "{8CA6B12C-1DCA-47CA-8B97-FDA2A06E3D29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{421E589D-D66E-450D-9052-2B206DA76982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qdaf.Core", "qdaf.Core\qdaf.Core.csproj", "{FF240ACC-7C1A-42A7-A2CC-CFC02A10758E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qdaf.Logging", "qdaf.Logging\qdaf.Logging.csproj", "{A5B93DC8-98C6-481D-BB50-3A7B89E40732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B62F7D4-474F-4461-871A-5FBA29E8B420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B62F7D4-474F-4461-871A-5FBA29E8B420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B62F7D4-474F-4461-871A-5FBA29E8B420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B62F7D4-474F-4461-871A-5FBA29E8B420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842DADFD-BE83-4A28-8B6D-86C330951E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842DADFD-BE83-4A28-8B6D-86C330951E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842DADFD-BE83-4A28-8B6D-86C330951E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842DADFD-BE83-4A28-8B6D-86C330951E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA6B12C-1DCA-47CA-8B97-FDA2A06E3D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA6B12C-1DCA-47CA-8B97-FDA2A06E3D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA6B12C-1DCA-47CA-8B97-FDA2A06E3D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA6B12C-1DCA-47CA-8B97-FDA2A06E3D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF240ACC-7C1A-42A7-A2CC-CFC02A10758E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF240ACC-7C1A-42A7-A2CC-CFC02A10758E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF240ACC-7C1A-42A7-A2CC-CFC02A10758E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF240ACC-7C1A-42A7-A2CC-CFC02A10758E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B93DC8-98C6-481D-BB50-3A7B89E40732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B93DC8-98C6-481D-BB50-3A7B89E40732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B93DC8-98C6-481D-BB50-3A7B89E40732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B93DC8-98C6-481D-BB50-3A7B89E40732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{842DADFD-BE83-4A28-8B6D-86C330951E97} = {173CA1BA-0F52-4121-8738-A196E3C66B31}
+		{8CA6B12C-1DCA-47CA-8B97-FDA2A06E3D29} = {421E589D-D66E-450D-9052-2B206DA76982}
+	EndGlobalSection
+EndGlobal
