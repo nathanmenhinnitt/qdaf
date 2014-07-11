@@ -39,9 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Defaults.cs" />
+    <Compile Include="DefaultTransactionProcessor.cs" />
     <Compile Include="IPacketReceiver.cs" />
+    <Compile Include="ITimer.cs" />
+    <Compile Include="ITransactionProcessor.cs" />
     <Compile Include="PacketReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DefaultTimer.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="TransactionBatchResult.cs" />
+    <Compile Include="TransactionException.cs" />
+    <Compile Include="TransactionLock.cs" />
+    <Compile Include="TransactionStaus.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\qdaf.Core\qdaf.Core.csproj">
